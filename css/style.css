@@ -57,6 +57,15 @@
 
 /* FOOTER */
 /* ? Footer Top */
+.ms_footer_top {
+    background-color: var(--main-color-light-blue);
+    color: var(--main-color-white);
+}
+
+.ms_card_footer_top {
+    /* debug */
+    background-color: lightseagreen;
+}
 
 /* ? Footer Bottom */
 .ms_footer_bottom {
