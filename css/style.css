@@ -4,16 +4,6 @@
     --main-color-light-blue: #3A546D;
     --main-color-green: #1ABC9C;
     --main-color-white: #FFFFFF;
-    --card-color-house: #BA4B63;
-    --card-color-cake: #1EA4B6
-    --card-color-circus: #140F0F;
-    --card-color-game: #1C83C1;
-    --card-color-safe: #0E38B5;
-    --card-color-submarine: #CCB2A3;
-}
-
-.ms_placeholder {
-    background-color: red;
 }
 
 /* HEADER */
@@ -22,8 +12,21 @@
     height: 80px;
 }
 
+.ms_nav {
+    /* debug */
+    background-color: red;
+}
+
 /* MAIN */
 /* ? Hero */
+.ms_hero {
+    padding-top: 80px;
+    background-color: var(--main-color-green);
+}
+
+.ms_hero img {
+    width: 200px;
+}
 
 /* ? Portfolio */
 
