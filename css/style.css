@@ -29,7 +29,7 @@
 }
 
 /* ? Portfolio */
-.ms_card {
+.ms_card_portfolio {
     border-radius: 10px;
     /* debug */
     background-color: green;
@@ -37,6 +37,17 @@
 }
 
 /* ? About */
+.ms_about {
+    background-color: var(--main-color-green);
+}
+
+.ms_card_about {
+    text-align: left;
+    /* debug */
+    background-color: lightsalmon;
+    height: 300px;
+}
+
 
 /* ? Contact me */
 
