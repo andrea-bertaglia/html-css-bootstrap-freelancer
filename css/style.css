@@ -29,6 +29,12 @@
 }
 
 /* ? Portfolio */
+.ms_card {
+    border-radius: 10px;
+    /* debug */
+    background-color: green;
+    height: 100px;
+}
 
 /* ? About */
 
