@@ -47,11 +47,19 @@
     background-color: lightsalmon;
     height: 300px;
 }
-
-
 /* ? Contact me */
+.ms_card_contact {
+    text-align: left;
+    /* debug */
+    background-color: lightskyblue;
+    height: 300px;
+}
 
 /* FOOTER */
 /* ? Footer Top */
 
 /* ? Footer Bottom */
+.ms_footer_bottom {
+    background-color: var(--main-color-dark-blue);
+    color: var(--main-color-white);
+}
