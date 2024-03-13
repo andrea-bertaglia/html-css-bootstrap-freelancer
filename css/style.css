@@ -1,3 +1,37 @@
-body {
-    background-color: lightgreen;
+/* CUSTOM PROPERTIES */
+:root {
+    --main-color-dark-blue: #2C3E50;
+    --main-color-light-blue: #3A546D;
+    --main-color-green: #1ABC9C;
+    --main-color-white: #FFFFFF;
+    --card-color-house: #BA4B63;
+    --card-color-cake: #1EA4B6
+    --card-color-circus: #140F0F;
+    --card-color-game: #1C83C1;
+    --card-color-safe: #0E38B5;
+    --card-color-submarine: #CCB2A3;
 }
+
+.ms_placeholder {
+    background-color: red;
+}
+
+/* HEADER */
+.ms_header {
+    background-color: var(--main-color-dark-blue);
+    height: 80px;
+}
+
+/* MAIN */
+/* ? Hero */
+
+/* ? Portfolio */
+
+/* ? About */
+
+/* ? Contact me */
+
+/* FOOTER */
+/* ? Footer Top */
+
+/* ? Footer Bottom */
