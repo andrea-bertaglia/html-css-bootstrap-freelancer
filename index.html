@@ -129,10 +129,10 @@
 
       <!-- About -->
       <section class="ms_about" id="about">
-        <div class="container text-center text-white py-5">
+        <div class="container text-center text-white pt-5 pb-4">
           <h2 class="pb-3">ABOUT</h2>
           <i class="bi bi-star-fill"></i>
-          <div class="row flex-column flex-md-row align-items-start justify-content-md-center py-4 g-3 text-start">
+          <div class="row flex-column flex-md-row align-items-center align-items-md-start justify-content-md-center py-4 g-3 text-start">
             <div class="col-8 col-md-4 col-lg-5">
               <div>
                 Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
@@ -155,17 +155,32 @@
       <section>
         <div class="container text-center py-5" id="contact">
           <h2 class="pb-3">CONTACT ME</h2>
-          <p class="pb-3">elemento</p>
+          <i class="bi bi-star-fill"></i>
           <div
-            class="row flex-column flex-md-row align-items-center justify-content-md-center"
+            class="row flex-column flex-md-row align-items-center justify-content-md-center py-4"
           >
             <div class="col-8 col-md-8 col-lg-10">
-              <div class="ms_card_contact">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
-                pariatur, excepturi iusto impedit dicta facilis? Sit nesciunt
-                natus autem maxime amet sunt inventore! Deleniti quidem sapiente
-                saepe possimus sunt voluptatibus?
-              </div>
+                <form>
+                    <div class="mb-1 text-start">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control ms_form" id="name">
+                    </div>
+                    <div class="mb-1 text-start">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control ms_form" id="email">
+                    </div>
+                    <div class="mb-1 text-start">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control ms_form" id="phone">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea rows="5" class="form-control ms_form" id="message"></textarea>
+                    </div>
+                    <div class="text-start">
+                        <button type="submit" class="btn ms_btn">Send</button>
+                    </div>
+                </form>
             </div>
           </div>
         </div>
