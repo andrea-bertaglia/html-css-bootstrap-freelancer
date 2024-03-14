@@ -1,145 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Freelancer</title>
 
     <!-- Bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
     <!-- Custom Style -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
     <!-- HEADER -->
-    <header class="fixed-top d-flex align-items-center ms_header">
-        <div class="container container-md ms_nav">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores soluta adipisci iure. Molestiae vitae quasi consequatur utti?
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-md bg-body-color ms_header">
+        <!-- Container Nav -->
+        <div class="container">
+          <!-- Brand   -->
+          <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
+          <!-- /Brand   -->
+
+          <!-- Hamburger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <!-- /Hamburger button -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#portfolio"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#about"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#contact"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+        <!-- /Container Nav -->
+      </nav>
     </header>
     <!-- /HEADER -->
 
     <!-- MAIN -->
     <main>
-        <!-- Hero  -->
-        <section class="d-flex align-items-center ms_hero">
-            <div class="container py-4 text-center">
-                <img class="py-3" src="./img/avatar.svg" alt="">
-                <h1 class="py-2">Titolo</h1>
-                <p class="py-2">elemento</p>
-                <div class="py-2">elemento</div>
-            </div>
-        </section>
-        <!-- /Hero  -->
+      <!-- Hero  -->
+      <section class="d-flex align-items-center ms_hero">
+        <div class="container py-4 text-center">
+          <img class="py-3" src="./img/avatar.svg" alt="" />
+          <h1 class="py-2">Titolo</h1>
+          <p class="py-2">elemento</p>
+          <div class="py-2">elemento</div>
+        </div>
+      </section>
+      <!-- /Hero  -->
 
-        <!-- Portfolio -->
-        <section>
-            <div class="container text-center py-5">
-                <h2 class="pb-3">PORTFOLIO</h2>
-                <p class="pb-3">elemento</p>
-                <div class="row g-3">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms_card_portfolio"></div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms_card_portfolio"></div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms_card_portfolio"></div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms_card_portfolio"></div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms_card_portfolio"></div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms_card_portfolio"></div>
-                    </div>
-                </div>
+      <!-- Portfolio -->
+      <section id="portfolio">
+        <div class="container text-center py-5">
+          <h2 class="pb-3">PORTFOLIO</h2>
+          <p class="pb-3">elemento</p>
+          <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="ms_card_portfolio"></div>
             </div>
-        </section>
-        <!-- /Portfolio -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="ms_card_portfolio"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="ms_card_portfolio"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="ms_card_portfolio"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="ms_card_portfolio"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="ms_card_portfolio"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio -->
 
-        <!-- About -->
-        <section class="ms_about">
-            <div class="container text-center py-5">
-                <h2 class="pb-3">ABOUT</h2>
-                <p class="pb-3">elemento</p>
-                <div class="row flex-column flex-md-row align-items-center justify-content-md-center pb-5 g-3">
-                    <div class="col-8 col-md-4 col-lg-5">
-                        <div class="ms_card_about">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed pariatur, excepturi iusto impedit dicta facilis? Sit nesciunt natus autem maxime amet sunt inventore! Deleniti quidem sapiente saepe possimus sunt voluptatibus?
-                        </div>
-                    </div>
-                    <div class="col-8 col-md-4 col-lg-5">
-                        <div class="ms_card_about">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed pariatur, excepturi iusto impedit dicta facilis? Sit nesciunt natus autem maxime amet sunt inventore! Deleniti quidem sapiente saepe possimus sunt voluptatibus?
-                        </div>
-                    </div>
-                </div>  
-                <p>bottone</p>
+      <!-- About -->
+      <section class="ms_about" id="about">
+        <div class="container text-center py-5">
+          <h2 class="pb-3">ABOUT</h2>
+          <p class="pb-3">elemento</p>
+          <div
+            class="row flex-column flex-md-row align-items-center justify-content-md-center pb-5 g-3"
+          >
+            <div class="col-8 col-md-4 col-lg-5">
+              <div class="ms_card_about">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+                pariatur, excepturi iusto impedit dicta facilis? Sit nesciunt
+                natus autem maxime amet sunt inventore! Deleniti quidem sapiente
+                saepe possimus sunt voluptatibus?
+              </div>
             </div>
-        </section>
-        <!-- /About -->
+            <div class="col-8 col-md-4 col-lg-5">
+              <div class="ms_card_about">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+                pariatur, excepturi iusto impedit dicta facilis? Sit nesciunt
+                natus autem maxime amet sunt inventore! Deleniti quidem sapiente
+                saepe possimus sunt voluptatibus?
+              </div>
+            </div>
+          </div>
+          <p>bottone</p>
+        </div>
+      </section>
+      <!-- /About -->
 
-        <!-- Contact me -->
-        <section>
-            <div class="container text-center py-5">
-                <h2 class="pb-3">CONTACT ME</h2>
-                <p class="pb-3">elemento</p>
-                <div class="row flex-column flex-md-row align-items-center justify-content-md-center">
-                    <div class="col-8 col-md-8 col-lg-10">
-                        <div class="ms_card_contact">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed pariatur, excepturi iusto impedit dicta facilis? Sit nesciunt natus autem maxime amet sunt inventore! Deleniti quidem sapiente saepe possimus sunt voluptatibus?
-                        </div>
-                    </div>
-                </div>  
+      <!-- Contact me -->
+      <section>
+        <div class="container text-center py-5" id="contact">
+          <h2 class="pb-3">CONTACT ME</h2>
+          <p class="pb-3">elemento</p>
+          <div
+            class="row flex-column flex-md-row align-items-center justify-content-md-center"
+          >
+            <div class="col-8 col-md-8 col-lg-10">
+              <div class="ms_card_contact">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+                pariatur, excepturi iusto impedit dicta facilis? Sit nesciunt
+                natus autem maxime amet sunt inventore! Deleniti quidem sapiente
+                saepe possimus sunt voluptatibus?
+              </div>
             </div>
-        </section>
-        <!-- /Contact me -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact me -->
     </main>
     <!-- /MAIN -->
 
     <!-- FOOTER -->
     <footer>
-        <!-- Footer Top -->
-        <section class="ms_footer_top py-4 text-white">
-            <div class="container">
-                <div class="row g-3">
-                    <div class="col-12 col-md-4">
-                        <div class="ms_card_footer_top">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nesciunt tempore iure distinctio minima aliquam delectus alias voluptatem. Non natus officia, eveniet fuga alias eaque eum dolores sequi est odio?
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="ms_card_footer_top">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nesciunt tempore iure distinctio minima aliquam delectus alias voluptatem. Non natus officia, eveniet fuga alias eaque eum dolores sequi est odio?
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="ms_card_footer_top">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, nesciunt tempore iure distinctio minima aliquam delectus alias voluptatem. Non natus officia, eveniet fuga alias eaque eum dolores sequi est odio?
-                        </div>
-                    </div>
-                </div>
+      <!-- Footer Top -->
+      <section class="ms_footer_top py-4 text-white">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-md-4">
+              <div class="ms_card_footer_top">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                nesciunt tempore iure distinctio minima aliquam delectus alias
+                voluptatem. Non natus officia, eveniet fuga alias eaque eum
+                dolores sequi est odio?
+              </div>
             </div>
-        </section>
-        <!-- /Footer Top -->
+            <div class="col-12 col-md-4">
+              <div class="ms_card_footer_top">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                nesciunt tempore iure distinctio minima aliquam delectus alias
+                voluptatem. Non natus officia, eveniet fuga alias eaque eum
+                dolores sequi est odio?
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="ms_card_footer_top">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                nesciunt tempore iure distinctio minima aliquam delectus alias
+                voluptatem. Non natus officia, eveniet fuga alias eaque eum
+                dolores sequi est odio?
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Footer Top -->
 
-        <!-- Footer Bottom -->
-        <section class="ms_footer_bottom text-white">
-            <div class="container text-center py-4">
-                <p>copyright</p>
-            </div>
-        </section>
-        <!-- /Footer Bottom -->        
+      <!-- Footer Bottom -->
+      <section class="ms_footer_bottom text-white">
+        <div class="container text-center py-4">
+          <p>copyright</p>
+        </div>
+      </section>
+      <!-- /Footer Bottom -->
     </footer>
     <!-- /FOOTER -->
-</body>
+  </body>
 </html>

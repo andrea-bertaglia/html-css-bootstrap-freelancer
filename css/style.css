@@ -11,9 +11,8 @@
     height: 80px;
 }
 
-.ms_nav {
-    /* debug */
-    background-color: red;
+nav>a {
+    color: #FFFFFF; !important
 }
 
 /* MAIN */
