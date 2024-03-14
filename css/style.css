@@ -1,14 +1,13 @@
 /* CUSTOM PROPERTIES */
 :root {
-    --main-color-dark-blue: #2C3E50;
-    --main-color-light-blue: #3A546D;
-    --main-color-green: #1ABC9C;
-    --main-color-white: #FFFFFF;
+    --ms_color-dark-blue: #2C3E50;
+    --ms_color-light-blue: #3A546D;
+    --ms_color-green: #1ABC9C;
 }
 
 /* HEADER */
 .ms_header {
-    background-color: var(--main-color-dark-blue);
+    background-color: var(--ms_color-dark-blue);
     height: 80px;
 }
 
@@ -21,7 +20,7 @@
 /* ? Hero */
 .ms_hero {
     padding-top: 80px;
-    background-color: var(--main-color-green);
+    background-color: var(--ms_color-green);
 }
 
 .ms_hero img {
@@ -38,7 +37,7 @@
 
 /* ? About */
 .ms_about {
-    background-color: var(--main-color-green);
+    background-color: var(--ms_color-green);
 }
 
 .ms_card_about {
@@ -58,8 +57,7 @@
 /* FOOTER */
 /* ? Footer Top */
 .ms_footer_top {
-    background-color: var(--main-color-light-blue);
-    color: var(--main-color-white);
+    background-color: var(--ms_color-light-blue);
 }
 
 .ms_card_footer_top {
@@ -69,6 +67,5 @@
 
 /* ? Footer Bottom */
 .ms_footer_bottom {
-    background-color: var(--main-color-dark-blue);
-    color: var(--main-color-white);
+    background-color: var(--ms_color-dark-blue);
 }
