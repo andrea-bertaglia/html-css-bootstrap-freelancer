@@ -23,12 +23,6 @@
 }
 
 /* ? Portfolio */
-.ms_card_portfolio {
-    border-radius: 10px;
-    /* debug */
-    background-color: green;
-    height: 100px;
-}
 
 /* ? About */
 .ms_about {
